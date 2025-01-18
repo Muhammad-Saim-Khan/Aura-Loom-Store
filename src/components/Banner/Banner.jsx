@@ -1,6 +1,6 @@
 import React from "react";
-import BannerImg from "../../assets/Banner/juice.png";
-import Splash from "../../assets/Banner/splash.png";
+import BannerImg from "../../assets/logo.png";
+import Splash from "../../assets/bg.jpg";
 import { motion } from "framer-motion";
 import { fadeUp } from "../../components/Products/Products";
 
@@ -36,7 +36,7 @@ const Banner = () => {
               whileInView="show"
               className="text-3xl lg:text-4xl font-semibold "
             >
-              Refresh Your World with Fanta
+              AURA LOOM Clothing (Brand)
             </motion.h1>
             <motion.p
               variants={fadeUp(0.9)}
@@ -44,12 +44,10 @@ const Banner = () => {
               whileInView="show"
               className="text-gray-500"
             >
-              Fanta brings a burst of vibrant flavors and effervescent fun to
-              your day! Whether you're looking to quench your thirst with a
-              zesty orange, tangy lemon, or one of our many other fruit-inspired
-              flavors, Fanta is your go-to drink for a refreshing and exciting
-              experience. Dive into the world of Fanta and let every sip spark
-              your senses with its bold, bubbly, and refreshing taste!
+              "AURA LOOM " where style meets individuality. Crafted with
+              passion, designed for those who dare to be different . Dress bold
+              , live free . “Eco-friendly, ethically made fashion ✨ Timeless
+              comfort & style 🌿 #AuraLoom”
             </motion.p>
             <motion.button
               variants={fadeUp(1.1)}
@@ -57,7 +55,10 @@ const Banner = () => {
               whileInView="show"
               className="!mt-5 border-2 border-primary text-primary px-6 py-2 rounded-md hover:bg-primary hover:text-white duration-200"
             >
-              Buy Now
+              <a target="_blank" href="https://wa.me/+923353413029">
+                {" "}
+                Buy Now
+              </a>
             </motion.button>
           </div>
         </div>

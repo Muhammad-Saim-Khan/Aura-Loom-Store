@@ -1,7 +1,7 @@
 import React from "react";
-import P1 from "../../assets/fanta1.png";
-import P2 from "../../assets/fanta2.png";
-import P3 from "../../assets/fanta3.png";
+import P1 from "../../assets/four.png";
+import P2 from "../../assets/five.png";
+import P3 from "../../assets/six.png";
 import { motion } from "framer-motion";
 
 export const fadeUp = (delay) => {
@@ -24,22 +24,22 @@ export const fadeUp = (delay) => {
 const ProductsData = [
   {
     id: 1,
-    title: "Orange Fanta",
+    title: " Black Knit Sweater",
     image: P1,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae iusto minima ",
+    desc: "Get winter-ready with Aura Loom’s Winter Collection! 🖤 Elevate your style with this classic black knit sweater—comfort and glamour  ",
     delay: 0.5,
   },
   {
     id: 2,
-    title: "Lemon Fanta",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae iusto minima ",
+    title: "Olive Green Hoodie",
+    desc: "Style Meets Comfort 🖤✨ Introducing Aura Loom's Winter Collection Hoodies in Olive Green! 🌿 Stay trendy, warm, and classy this season. ❄️",
     image: P2,
     delay: 0.8,
   },
   {
     id: 3,
-    title: "Cola Zero",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae iusto minima",
+    title: "Elegant Sweatshirt",
+    desc: "🤍 Winter in Style Starts Here! 🤍 Embrace the chill with the Aura Loom Winter Collection! This elegant sweatshirt is yours ",
     image: P3,
     delay: 1.1,
   },
@@ -77,9 +77,13 @@ const Products = () => {
                   {item.title}
                 </h1>
                 <p className="text-center text-sm text-gray-600">{item.desc}</p>
-                <button className="!mt-5 border-2 border-primary text-primary px-6 py-2 rounded-md hover:bg-primary hover:text-white duration-200">
-                  Buy Now
-                </button>
+                <a target="_blank" href="https://wa.me/+923353413029">
+                  {" "}
+                  <button className="!mt-5 border-2 border-primary text-primary px-6 py-2 rounded-md hover:bg-primary hover:text-white duration-200">
+                    {" "}
+                    Buy Now x
+                  </button>
+                </a>
               </div>
             </motion.div>
           ))}

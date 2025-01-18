@@ -31,18 +31,17 @@ const Footer = () => {
             <img src={Logo} alt="" className="max-w-[100px] invert" />
             <div>
               <p className="flex items-center gap-2">
-                <img width={20} className="rounded-full" src={Img} alt="" />
                 <a
                   target="_blank"
                   className="hover:underline hover:text-[#3b55ff]"
                   href=""
                 >
-                  Muhammad Saim Khan
+                  Rameesha Ahmed
                 </a>
               </p>
               <p className="flex items-center gap-2">
                 <FaPhone />
-                +92 333 7751641
+                +92 335 3413029
               </p>
               <p className="flex items-center gap-2 mt-2">
                 {" "}
@@ -94,25 +93,16 @@ const Footer = () => {
             <div className="flex items-center gap-3">
               <a
                 target="_blank"
-                href="https://www.facebook.com/profile.php?id=61554894977389"
+                href="https://www.facebook.com/profile.php?id=61565645455948&mibextid=LQQJ4d"
               >
                 <FaFacebook className="text-3xl hover:scale-105 duration-300" />
               </a>
-              <a
-                target="_blank"
-                href="https://www.instagram.com/saimkhan_developer/"
-              >
+              <a target="_blank" href="https://www.instagram.com/_auraloom_/">
                 {" "}
                 <FaInstagram className="text-3xl hover:scale-105 duration-300" />
               </a>
               <a target="_blank" href="https://github.com/Muhammad-Saim-Khan">
                 <FaGithub className="text-3xl hover:scale-105 duration-300" />
-              </a>{" "}
-              <a
-                target="_blank"
-                href="https://www.youtube.com/channel/UCXlFEwxlbvp4q0rJFyl2P5A"
-              >
-                <FaYoutube className="text-3xl hover:scale-105 duration-300" />
               </a>{" "}
             </div>
             <div className="space-y-2">
@@ -123,7 +113,13 @@ const Footer = () => {
         </div>
         {/* copyright section */}
         <p className="text-center mt-8 border-t-2 border-white/40 pt-8">
-          Copyright &copy; 2024. All Rights Reserved
+          Copyright &copy; 2025. All Rights Reserved <br /> Design By{" "}
+          <a
+            className="text-[#ffffff] font-bold font-handwriting hover:text-[blue]"
+            href="https://github.com/Muhammad-Saim-Khan"
+          >
+            Muhammad Saim Khan
+          </a>
         </p>
       </div>
     </footer>

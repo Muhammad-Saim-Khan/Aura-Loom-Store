@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/logo.png";
+// import Logo from "../assets/logo.png";
 import { MdMenu } from "react-icons/md";
 import { FaRegUser } from "react-icons/fa";
 import { motion } from "framer-motion";

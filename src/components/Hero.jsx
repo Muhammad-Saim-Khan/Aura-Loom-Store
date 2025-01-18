@@ -147,7 +147,10 @@ const Hero = () => {
                     style={{ color: activeData.bgColor }}
                     className="px-4 py-2 bg-white inline-block font-normal rounded-sm"
                   >
-                    Order Now
+                    <a target="_blank" href="https://wa.me/+923353413029">
+                      {" "}
+                      Order Now
+                    </a>
                   </motion.button>
                 </UpdateFollower>
               </AnimatePresence>

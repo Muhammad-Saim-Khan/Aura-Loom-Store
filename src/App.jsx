@@ -19,12 +19,11 @@ const App = () => {
         }}
       >
         <Hero />
-        {/* <Products /> */}
-        {/* <Banner /> */}
-        {/* <BannerText /> */}
-        {/* <Blogs /> */}
-        {/* <FAQ /> */}
-        {/* <Footer /> */}
+        <Products />
+        <Banner />
+        <BannerText />
+        <FAQ />
+        <Footer />
       </UpdateFollower>
     </main>
   );

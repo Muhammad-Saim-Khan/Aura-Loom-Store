@@ -2,23 +2,24 @@ import React from "react";
 
 const faqData = [
   {
-    question: "What is Fanta?",
+    question: "What makes AURA LOOM different from other clothing brands?",
     answer:
-      "Fanta is a popular fruit-flavored carbonated soft drink created by The Coca-Cola Company.",
+      "At AURA LOOM, we combine bold designs with eco-friendly and ethically sourced materials. Our passion lies in creating timeless styles that allow you to express your individuality while caring for the planet.",
   },
   {
-    question: "What flavors does Fanta offer?",
+    question: "How can I care for my AURA LOOM garments?",
     answer:
-      "Fanta offers a variety of flavors including orange, grape, pineapple, and more!",
+      "We recommend washing our garments in cold water with mild detergent, avoiding harsh chemicals, and air-drying to maintain their quality and longevity.",
   },
   {
-    question: "Is Fanta gluten-free?",
+    question: "Are AURA LOOM products sustainably made?",
     answer:
-      "Yes, Fanta is gluten-free, making it suitable for those with gluten intolerance.",
+      "Yes, sustainability is at the heart of AURA LOOM. All our products are crafted using eco-friendly processes and ethically sourced materials to ensure minimal environmental impact.",
   },
   {
-    question: "How many calories are in a can of Fanta?",
-    answer: "A 12 oz can of Fanta Orange contains about 160 calories.",
+    question: "Where can I shop AURA LOOM products?",
+    answer:
+      "You can explore our entire collection on our official website or at select retail partners. Stay tuned for updates on new collections and exclusive offers by following us on social media.",
   },
 ];
 const FAQ = () => {
